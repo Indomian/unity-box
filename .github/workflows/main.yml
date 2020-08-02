@@ -51,7 +51,17 @@ jobs:
         with:
           name: Build
           path: build
-
+  
+  deploy:
+    name: Deploy to gh-pages
+    needs: build
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: Build
       # Publish
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
