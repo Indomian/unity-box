@@ -50,7 +50,6 @@ public class PlayerController : AbstractPlayerController
         }
         
         float axis = Input.GetAxis("Horizontal");
-        Debug.Log(axis);
         if (Math.Abs(axis) > turnInputThreshold) {
             turning = true;
             turnSign = Math.Sign(axis);

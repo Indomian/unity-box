@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8385658039312912175}
   - component: {fileID: 4726799755607541404}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Player highlight light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,7 +105,7 @@ GameObject:
   - component: {fileID: 4393805872241686013}
   - component: {fileID: 2048412836785969818}
   - component: {fileID: 5742707698135938326}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -208,7 +208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4393805872839835911}
   - component: {fileID: 4393805872839835910}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Player projector light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
